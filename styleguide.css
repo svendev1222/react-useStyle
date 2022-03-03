@@ -1,0 +1,93 @@
+:root { 
+  --black: #000000;
+  --cerulean: #00b6d6;
+  --chicago: #5e5e5e;
+  --gray: #7e7e7e;
+  --mist-gray: #c4c4c4;
+  --mountain-mist: #989898;
+  --pattens-blue: #def6fa1a;
+  --tuatara: #343434;
+  --white: #ffffff;
+ 
+  --font-size-l: 11px;
+  --font-size-m: 9px;
+  --font-size-s: 8px;
+  --font-size-xl: 14px;
+  --font-size-xxl: 18px;
+ 
+  --font-family-dm_sans: "DM Sans", Helvetica;
+  --font-family-dm_serif_display: "DM Serif Display", Helvetica;
+  --font-family-droid_sans-bold: "Droid Sans-Bold", Helvetica;
+  --font-family-droid_sans-regular: "Droid Sans-Regular", Helvetica;
+}
+.dmsans-normal-chicago-9px {
+  color: var(--chicago);
+  font-family: var(--font-family-dm_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.droidsans-regular-normal-mountain-mist-8px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-droid_sans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dmserifdisplay-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.droidsans-bold-cerulean-9px {
+  color: var(--cerulean);
+  font-family: var(--font-family-droid_sans-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.dmserifdisplay-normal-tuatara-18px {
+  color: var(--tuatara);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.droidsans-bold-cerulean-8px {
+  color: var(--cerulean);
+  font-family: var(--font-family-droid_sans-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.dmsans-bold-black-9px {
+  color: var(--black);
+  font-family: var(--font-family-dm_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.droidsans-regular-normal-gray-11px {
+  color: var(--gray);
+  font-family: var(--font-family-droid_sans-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.droidsans-regular-normal-cerulean-9px {
+  color: var(--cerulean);
+  font-family: var(--font-family-droid_sans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

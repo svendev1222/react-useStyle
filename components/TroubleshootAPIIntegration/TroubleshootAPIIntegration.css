@@ -1,0 +1,167 @@
+.troubleshoot-api-integration {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1196px;
+  min-width: 600px;
+}
+
+.overlap-group1-2 {
+  align-items: flex-start;
+  background-color: var(--pattens-blue);
+  display: flex;
+  flex-direction: column;
+  margin-left: 162px;
+  margin-top: -27px;
+  min-height: 1223px;
+  padding: 71px 20px;
+  width: 438px;
+}
+
+.overlap-group5 {
+  height: 92px;
+  position: relative;
+  width: 366px;
+}
+
+.what-can-we-help-you-with-2 {
+  height: 91px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 366px;
+}
+
+.graph-tabs-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  left: 0;
+  min-width: 299px;
+  position: absolute;
+  top: 79px;
+}
+
+.product-requirements-2 {
+  height: 13px;
+  letter-spacing: 0;
+  width: 103px;
+}
+
+.overlap-group-2 {
+  height: 13px;
+  margin-left: 3px;
+  position: relative;
+  width: 187px;
+}
+
+.api-integration-2 {
+  height: 13px;
+  left: 78px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.abr-edge-cases-2 {
+  height: 13px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 115px;
+}
+
+.api-integration-intro {
+  height: 19px;
+  letter-spacing: 0;
+  margin-top: 19px;
+  width: 366px;
+}
+
+.what-is-an-api-appl {
+  height: 121px;
+  letter-spacing: 0;
+  margin-top: 16px;
+  width: 366px;
+}
+
+.how-does-companys-a {
+  height: 191px;
+  letter-spacing: 0;
+  margin-top: 5px;
+  width: 366px;
+}
+
+.line-8-1 {
+  height: 1px;
+  margin-left: 1px;
+  margin-top: 19px;
+  width: 368px;
+}
+
+.integration-scenarios {
+  height: 19px;
+  letter-spacing: 0;
+  margin-top: 20px;
+  width: 366px;
+}
+
+.possible-integration {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 24px;
+  width: 366px;
+}
+
+.overlap-group4 {
+  height: 186px;
+  margin-left: 1px;
+  margin-top: 8px;
+  position: relative;
+  width: 386px;
+}
+
+.scenario {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 366px;
+}
+
+.register-with-the-la,
+.register-with-large,
+.set-up-an-appointmen {
+  left: 20px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 22px;
+  width: 366px;
+}
+
+.overlap-group3 {
+  height: 122px;
+  margin-left: 1px;
+  margin-top: 19px;
+  position: relative;
+  width: 386px;
+}
+
+.overlap-group2-2 {
+  height: 36px;
+  margin-left: 1px;
+  margin-top: 26px;
+  position: relative;
+  width: 386px;
+}
+
+.span1 {
+  color: var(--cerulean);
+  font-family: var(--font-family-dm_sans);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+}
+

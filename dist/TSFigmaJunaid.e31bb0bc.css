@@ -1,0 +1,627 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display:400|DM+Sans:400,700");
+@font-face {
+  font-family: "Droid Sans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/DroidSans-Regular.98828b38.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Droid Sans-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/DroidSans-Bold.e84d21fb.ttf") format("truetype");
+}
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/61e267c33aad30f0356fe5e9.61e267c63ace7e6144793249.Sd8WlTM.rcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root { 
+  --black: #000000;
+  --cerulean: #00b6d6;
+  --chicago: #5e5e5e;
+  --gray: #7e7e7e;
+  --mist-gray: #c4c4c4;
+  --mountain-mist: #989898;
+  --pattens-blue: #def6fa1a;
+  --tuatara: #343434;
+  --white: #ffffff;
+ 
+  --font-size-l: 11px;
+  --font-size-m: 9px;
+  --font-size-s: 8px;
+  --font-size-xl: 14px;
+  --font-size-xxl: 18px;
+ 
+  --font-family-dm_sans: "DM Sans", Helvetica;
+  --font-family-dm_serif_display: "DM Serif Display", Helvetica;
+  --font-family-droid_sans-bold: "Droid Sans-Bold", Helvetica;
+  --font-family-droid_sans-regular: "Droid Sans-Regular", Helvetica;
+}
+.dmsans-normal-chicago-9px {
+  color: var(--chicago);
+  font-family: var(--font-family-dm_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.droidsans-regular-normal-mountain-mist-8px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-droid_sans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dmserifdisplay-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.droidsans-bold-cerulean-9px {
+  color: var(--cerulean);
+  font-family: var(--font-family-droid_sans-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.dmserifdisplay-normal-tuatara-18px {
+  color: var(--tuatara);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.droidsans-bold-cerulean-8px {
+  color: var(--cerulean);
+  font-family: var(--font-family-droid_sans-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.dmsans-bold-black-9px {
+  color: var(--black);
+  font-family: var(--font-family-dm_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.droidsans-regular-normal-gray-11px {
+  color: var(--gray);
+  font-family: var(--font-family-droid_sans-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.droidsans-regular-normal-cerulean-9px {
+  color: var(--cerulean);
+  font-family: var(--font-family-droid_sans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.troubleshoot-product-requirements {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1196px;
+  min-width: 600px;
+}
+
+.overlap-group1 {
+  align-items: center;
+  background-color: var(--pattens-blue);
+  display: flex;
+  flex-direction: column;
+  margin-left: 162px;
+  min-height: 1196px;
+  padding: 44px 20px;
+  width: 438px;
+}
+
+.overlap-group2 {
+  height: 92px;
+  margin-right: 32.0px;
+  position: relative;
+  width: 366px;
+}
+
+.what-can-we-help-you-with {
+  height: 91px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 366px;
+}
+
+.graph-tabs {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  left: 0;
+  min-width: 299px;
+  position: absolute;
+  top: 79px;
+}
+
+.product-requirements {
+  height: 13px;
+  letter-spacing: 0;
+  width: 103px;
+}
+
+.overlap-group {
+  height: 13px;
+  margin-left: 3px;
+  position: relative;
+  width: 187px;
+}
+
+.api-integration {
+  height: 13px;
+  left: 78px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.abr-edge-cases {
+  height: 13px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 115px;
+}
+
+.understanding-compan {
+  height: 19px;
+  letter-spacing: 0;
+  margin-right: 32.0px;
+  margin-top: 19px;
+  width: 366px;
+}
+
+.companys-automated {
+  height: 24px;
+  letter-spacing: 0;
+  margin-right: 32.0px;
+  margin-top: 12px;
+  width: 366px;
+}
+
+.resolution-the-dent {
+  height: 182px;
+  letter-spacing: 0;
+  margin-right: 32.0px;
+  margin-top: 20px;
+  width: 366px;
+}
+
+.line-8 {
+  align-self: flex-start;
+  height: 1px;
+  margin-left: 1px;
+  margin-top: 20px;
+  width: 368px;
+}
+
+.example-cases {
+  align-self: flex-start;
+  height: 19px;
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 22px;
+  width: 366px;
+}
+
+.flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 29.0px;
+  margin-top: 23px;
+  min-width: 339px;
+}
+
+.rectangle-4 {
+  background-color: var(--mist-gray);
+  height: 102px;
+  width: 146px;
+}
+
+.this-arch-is-a-good,
+.this-arch-is-also-an,
+.this-is-an-example-o,
+.since-this-has-a-hol {
+  height: 102px;
+  letter-spacing: 0;
+  margin-left: 20px;
+  width: 173px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 29.0px;
+  margin-top: 14px;
+  min-width: 339px;
+}
+
+.flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 29.0px;
+  margin-top: 13px;
+  min-width: 339px;
+}
+
+
+.troubleshoot-abr-edge-cases {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1196px;
+  min-width: 600px;
+}
+
+.overlap-group1-1 {
+  align-items: flex-start;
+  background-color: var(--pattens-blue);
+  display: flex;
+  flex-direction: column;
+  margin-left: 162px;
+  min-height: 1196px;
+  padding: 44px 20px;
+  width: 438px;
+}
+
+.overlap-group2-1 {
+  height: 92px;
+  position: relative;
+  width: 366px;
+}
+
+.what-can-we-help-you-with-1 {
+  height: 91px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 366px;
+}
+
+.graph-tabs-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  left: 0;
+  min-width: 299px;
+  position: absolute;
+  top: 79px;
+}
+
+.product-requirements-1 {
+  height: 13px;
+  letter-spacing: 0;
+  width: 103px;
+}
+
+.overlap-group-1 {
+  height: 13px;
+  margin-left: 3px;
+  position: relative;
+  width: 187px;
+}
+
+.api-integration-1 {
+  height: 13px;
+  left: 78px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.abr-edge-cases-1 {
+  height: 13px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 115px;
+}
+
+.auto-bracket-removal-edge-cases {
+  height: 19px;
+  letter-spacing: 0;
+  margin-top: 19px;
+  width: 366px;
+}
+
+.abr-works-well-on-ar {
+  height: 30px;
+  letter-spacing: 0;
+  margin-top: 16px;
+  width: 355px;
+}
+
+.flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 6px;
+  min-width: 366px;
+}
+
+.rectangle {
+  background-color: var(--mist-gray);
+  height: 94px;
+  width: 177px;
+}
+
+.rectangle-1 {
+  background-color: var(--mist-gray);
+  height: 94px;
+  margin-left: 12px;
+  width: 177px;
+}
+
+.on-brackets-that-int {
+  height: 30px;
+  letter-spacing: 0;
+  margin-top: 20px;
+  width: 355px;
+}
+
+.flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 366px;
+}
+
+.if-needed-for-your-d {
+  height: 30px;
+  letter-spacing: 0;
+  margin-top: 6px;
+  width: 355px;
+}
+
+.scan-quality-also-af {
+  height: 46px;
+  letter-spacing: 0;
+  margin-top: 24px;
+  width: 381px;
+}
+
+.flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 5px;
+  min-width: 366px;
+}
+
+.excess-material-such {
+  height: 30px;
+  letter-spacing: 0;
+  margin-top: 30px;
+  width: 355px;
+}
+
+.too-many-teeth-missi {
+  height: 232px;
+  letter-spacing: 0;
+  margin-top: 30px;
+  width: 355px;
+}
+
+
+.troubleshoot-api-integration {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1196px;
+  min-width: 600px;
+}
+
+.overlap-group1-2 {
+  align-items: flex-start;
+  background-color: var(--pattens-blue);
+  display: flex;
+  flex-direction: column;
+  margin-left: 162px;
+  margin-top: -27px;
+  min-height: 1223px;
+  padding: 71px 20px;
+  width: 438px;
+}
+
+.overlap-group5 {
+  height: 92px;
+  position: relative;
+  width: 366px;
+}
+
+.what-can-we-help-you-with-2 {
+  height: 91px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 366px;
+}
+
+.graph-tabs-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  left: 0;
+  min-width: 299px;
+  position: absolute;
+  top: 79px;
+}
+
+.product-requirements-2 {
+  height: 13px;
+  letter-spacing: 0;
+  width: 103px;
+}
+
+.overlap-group-2 {
+  height: 13px;
+  margin-left: 3px;
+  position: relative;
+  width: 187px;
+}
+
+.api-integration-2 {
+  height: 13px;
+  left: 78px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.abr-edge-cases-2 {
+  height: 13px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 115px;
+}
+
+.api-integration-intro {
+  height: 19px;
+  letter-spacing: 0;
+  margin-top: 19px;
+  width: 366px;
+}
+
+.what-is-an-api-appl {
+  height: 121px;
+  letter-spacing: 0;
+  margin-top: 16px;
+  width: 366px;
+}
+
+.how-does-companys-a {
+  height: 191px;
+  letter-spacing: 0;
+  margin-top: 5px;
+  width: 366px;
+}
+
+.line-8-1 {
+  height: 1px;
+  margin-left: 1px;
+  margin-top: 19px;
+  width: 368px;
+}
+
+.integration-scenarios {
+  height: 19px;
+  letter-spacing: 0;
+  margin-top: 20px;
+  width: 366px;
+}
+
+.possible-integration {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 24px;
+  width: 366px;
+}
+
+.overlap-group4 {
+  height: 186px;
+  margin-left: 1px;
+  margin-top: 8px;
+  position: relative;
+  width: 386px;
+}
+
+.scenario {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 366px;
+}
+
+.register-with-the-la,
+.register-with-large,
+.set-up-an-appointmen {
+  left: 20px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 22px;
+  width: 366px;
+}
+
+.overlap-group3 {
+  height: 122px;
+  margin-left: 1px;
+  margin-top: 19px;
+  position: relative;
+  width: 386px;
+}
+
+.overlap-group2-2 {
+  height: 36px;
+  margin-left: 1px;
+  margin-top: 26px;
+  position: relative;
+  width: 386px;
+}
+
+.span1 {
+  color: var(--cerulean);
+  font-family: var(--font-family-dm_sans);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+}
+
+
+
+/*# sourceMappingURL=/TSFigmaJunaid.e31bb0bc.css.map */
